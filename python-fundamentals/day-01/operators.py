@@ -32,3 +32,14 @@ elif age == 18:
 else:
     print("Maior de 18 anos")
 
+age = 20
+is_student = True
+
+if age >= 18 and is_student:
+    print("Estudante maior de 18")
+
+elif age < 18 or is_student:
+    print("Menor de 18 ou estudante")
+
+elif is_student == False:
+    print("Não estudante")

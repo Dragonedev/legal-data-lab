@@ -6,7 +6,7 @@ is_student = True # bool
 # Entrada de dados
 user_name = input("Digite seu nome: ")
 user_age = int(input("Digite sua idade "))
-user_height = float(input("Digite seu nome: "))
+user_height = float(input("Digite sua altura: "))
 
 # Saída de dados
 print("Nome: ", user_name)
